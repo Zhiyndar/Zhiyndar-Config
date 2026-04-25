@@ -1,0 +1,14 @@
+# --- PROJECT ZHIYNDAR: GLOBAL REAL-TIME ARCHITECTURE ---
+
+[MODELS]
+VORTEX_ID  = openai/gpt-4o-mini
+STAR_ID    = google/gemini-pro-1.5
+PRISM_ID   = meta-llama/llama-3-8b-instruct
+LATTICE_ID = anthropic/claude-3-haiku
+
+[LINKS]
+# Direkte Deep-Links zur Kosten-Transparenz auf OpenRouter
+VORTEX_URL  = https://openrouter.ai/models/openai/gpt-4o-mini
+STAR_URL    = https://openrouter.ai/models/google/gemini-pro-1.5
+PRISM_URL   = https://openrouter.ai/models/meta-llama/llama-3-8b-instruct
+LATTICE_URL = https://openrouter.ai/models/anthropic/claude-3-haiku
