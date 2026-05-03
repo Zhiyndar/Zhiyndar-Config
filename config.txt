@@ -2,7 +2,7 @@
 
 [MODELS]
 VORTEX_ID  = openai/gpt-4o-mini:free
-STAR_ID = google/gemini-2.0-flash-exp:free
+STAR_ID = openrouter/auto
 PRISM_ID   = meta-llama/llama-3.1-8b-instruct:free
 LATTICE_ID = anthropic/claude-3-haiku
 
