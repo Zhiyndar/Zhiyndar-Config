@@ -2,7 +2,7 @@
 
 [MODELS]
 VORTEX_ID  = openai/gpt-oss-120b:free
-STAR_ID: = google/gemma-4-31b-it:free
+STAR_ID = google/gemma-4-31b-it:free
 PRISM_ID   = meta-llama/llama-3.2-3b-instruct:free
 LATTICE_ID = anthropic/claude-3-haiku
 
