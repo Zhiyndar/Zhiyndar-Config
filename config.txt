@@ -1,13 +1,13 @@
 # --- PROJECT ZHIYNDAR: GLOBAL REAL-TIME ARCHITECTURE (HYBRID) ---
 
 [MODELS]
-VORTEX_ID  = openrouter/auto-free
-STAR_ID = openrouter/auto-free
-PRISM_ID   = openrouter/auto-free
-LATTICE_ID = openrouter/auto-free
+VORTEX_ID  = openrouter/free
+STAR_ID = openrouter/free
+PRISM_ID   = openrouter/free
+LATTICE_ID = openrouter/free
 
 [LINKS]
-VORTEX_URL  = https://openrouter.ai/openrouter/auto-free
-STAR_URL = https://openrouter.ai/openrouter/auto-free
-PRISM_URL   = https://openrouter.ai/openrouter/auto-free
-LATTICE_URL = https://openrouter.ai/openrouter/auto-free
+VORTEX_URL  = https://openrouter.ai/openrouter/free
+STAR_URL = https://openrouter.ai/openrouter/free
+PRISM_URL   = https://openrouter.ai/openrouter/free
+LATTICE_URL = https://openrouter.ai/openrouter/free
