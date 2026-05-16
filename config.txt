@@ -1,13 +1,30 @@
-# --- PROJECT ZHIYNDAR: GLOBAL REAL-TIME ARCHITECTURE (HYBRID) ---
+# --- PROJECT ZHIYNDAR: GLOBAL REAL-TIME ARCHITECTURE (Pay) ---
+# --- OpenRouter ---
 
-[MODELS]
-VORTEX_ID  = openrouter/free
-STAR_ID = openrouter/free
-PRISM_ID   = openrouter/free
-LATTICE_ID = openrouter/free
+[PAY MODELS]
+VORTEX_ID  = openai/gpt-4.1
+STAR_ID = google/gemini-2.5-pro
+PRISM_ID   = meta-llama/llama-4-maverick
+LATTICE_ID = anthropic/claude-sonnet-4.6
 
 [LINKS]
-VORTEX_URL  = https://openrouter.ai/openrouter/free
-STAR_URL = https://openrouter.ai/openrouter/free
-PRISM_URL   = https://openrouter.ai/openrouter/free
-LATTICE_URL = https://openrouter.ai/openrouter/free
+VORTEX_URL  = https://openrouter.ai/openai/gpt-4.1
+STAR_URL = https://openrouter.ai/google/gemini-2.5-pro
+PRISM_URL   = https://openrouter.ai/meta-llama/llama-4-maverick
+LATTICE_URL = https://openrouter.ai/anthropic/claude-sonnet-4.6
+
+
+# --- PROJECT ZHIYNDAR: GLOBAL REAL-TIME ARCHITECTURE (Free) ---
+# --- HuggingFace ---
+
+[FREE_MODELS]
+VORTEX_FREE_ID  = deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+STAR_FREE_ID    = google/gemma-3-27b-it
+PRISM_FREE_ID   = meta-llama/Llama-3.3-70B-Instruct
+LATTICE_FREE_ID = mistralai/Mistral-Large-Instruct-2407
+
+[FREE_LINKS]
+VORTEX_FREE_URL  = https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B
+STAR_FREE_URL    = https://huggingface.co/google/gemma-3-27b-it
+PRISM_FREE_URL   = https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct
+LATTICE_FREE_URL = https://huggingface.co/mistralai/Mistral-Large-Instruct-2407
