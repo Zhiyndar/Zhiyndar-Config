@@ -14,17 +14,23 @@ PRISM_URL   = https://openrouter.ai/meta-llama/llama-4-maverick
 LATTICE_URL = https://openrouter.ai/anthropic/claude-sonnet-4.6
 
 
-# --- PROJECT ZHIYNDAR: GLOBAL REAL-TIME ARCHITECTURE (Free) ---
+# --- PROJECT ZHIYNDAR: FREE VERSION (HuggingFace) ---
 # --- HuggingFace ---
 
 [FREE_MODELS]
-VORTEX_FREE_ID  = NousResearch/Hermes-3-Llama-3-8B
-STAR_FREE_ID    = google/gemma-3-12b-it
-PRISM_FREE_ID   = Qwen/Qwen2.5-7B-Instruct
-LATTICE_FREE_ID = mistralai/Mistral-7B-Instruct-v0.3
+VORTEX_FREE_ID   = NousResearch/Hermes-3-Llama-3.1-8B
+STAR_FREE_ID     = google/gemma-3-12b-it
+PRISM_FREE_ID    = Qwen/Qwen2.5-7B-Instruct
+LATTICE_FREE_ID  = mistralai/Mistral-7B-Instruct-v0.2
 
 [FREE_LINKS]
-VORTEX_FREE_URL  = https://huggingface.co/NousResearch/Hermes-3-Llama-3-8B
+VORTEX_FREE_URL  = https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B
 STAR_FREE_URL    = https://huggingface.co/google/gemma-3-12b-it
 PRISM_FREE_URL   = https://huggingface.co/Qwen/Qwen2.5-7B-Instruct
-LATTICE_FREE_URL = https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3
+LATTICE_FREE_URL = https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2
+
+
+# --- GLOBAL SYSTEM PARAMETERS (DYNAMIC FAILSAFE) ---
+
+[SYSTEM_PARAMETERS]
+HF_API_URL       = https://api-inference.huggingface.co
