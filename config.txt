@@ -1,17 +1,21 @@
 # --- PROJECT ZHIYNDAR: GLOBAL REAL-TIME ARCHITECTURE (Pay) ---
 # --- OpenRouter ---
 
-[PAY MODELS]
-VORTEX_ID  = openai/gpt-4.1
-STAR_ID = google/gemini-2.5-pro
-PRISM_ID   = meta-llama/llama-4-maverick
-LATTICE_ID = anthropic/claude-sonnet-4.6
+[PAY_MODELS]
+VORTEX_ID   = openai/gpt-4.1
+STAR_ID     = google/gemini-2.5-pro
+PRISM_ID    = meta-llama/llama-4-maverick
+LATTICE_ID  = anthropic/claude-sonnet-4.6
 
 [LINKS]
 VORTEX_URL  = https://openrouter.ai/openai/gpt-4.1
-STAR_URL = https://openrouter.ai/google/gemini-2.5-pro
+STAR_URL    = https://openrouter.ai/google/gemini-2.5-pro
 PRISM_URL   = https://openrouter.ai/meta-llama/llama-4-maverick
 LATTICE_URL = https://openrouter.ai/anthropic/claude-sonnet-4.6
+
+# --- GLOBAL SYSTEM PARAMETERS (DYNAMIC FAILSAFE) ---
+[SYSTEM_PARAMETERS]
+HF_API_URL  = https://openrouter.ai/api/v1/chat/completions
 
 
 # --- PROJECT ZHIYNDAR: FREE VERSION (Groq Cloud) ---
