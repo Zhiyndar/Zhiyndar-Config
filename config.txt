@@ -34,6 +34,5 @@ PRISM_FREE_URL   = https://console.groq.com/docs/model/qwen/qwen3.6-27b
 LATTICE_FREE_URL = https://console.groq.com/docs/compound/systems/compound
 
 # --- GLOBAL SYSTEM PARAMETERS (DYNAMIC FAILSAFE) ---
-
 [SYSTEM_PARAMETERS]
 HF_API_URL      = https://api.groq.com/openai/v1/chat/completions
