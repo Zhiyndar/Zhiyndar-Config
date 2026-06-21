@@ -25,13 +25,13 @@ HF_API_URL  = https://openrouter.ai/api/v1/chat/completions
 VORTEX_FREE_ID   = llama-3.3-70b-versatile
 STAR_FREE_ID     = openai/gpt-oss-20b
 PRISM_FREE_ID    = qwen/qwen3.6-27b
-LATTICE_FREE_ID  = groq/compound
+LATTICE_FREE_ID  = llama-3.1-8b-instant
 
 [FREE_LINKS]
 VORTEX_FREE_URL  = https://console.groq.com/docs/model/llama-3.3-70b-versatile
 STAR_FREE_URL    = https://console.groq.com/docs/model/openai/gpt-oss-20b
 PRISM_FREE_URL   = https://console.groq.com/docs/model/qwen/qwen3.6-27b
-LATTICE_FREE_URL = https://console.groq.com/docs/compound/systems/compound
+LATTICE_FREE_URL = https://console.groq.com/docs/model/llama-3.1-8b-instant
 
 # --- GLOBAL SYSTEM PARAMETERS (DYNAMIC FAILSAFE) ---
 [SYSTEM_PARAMETERS]
